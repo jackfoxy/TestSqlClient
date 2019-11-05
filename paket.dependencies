@@ -1,0 +1,22 @@
+framework: auto-detect
+
+source https://api.nuget.org/v3/index.json
+
+nuget FSharp.Core 
+
+nuget BlackFox.Fake.BuildTask
+nuget Fake.Core.Target
+nuget Fake.IO.FileSystem
+nuget Fake.DotNet.Cli
+nuget Fake.DotNet.MSBuild
+nuget Fake.Core.ReleaseNotes 
+nuget Fake.DotNet.AssemblyInfoFile
+nuget Fake.DotNet.Paket
+nuget Fake.DotNet.FSFormatting
+nuget FSharp.Data.SqlClient
+
+group Formatting
+	source https://api.nuget.org/v3/index.json
+
+	nuget FSharp.Formatting
+	nuget FSharp.Formatting.CommandTool
